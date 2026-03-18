@@ -1,0 +1,331 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>MSBTE WPD Practicals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background: gray;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            nav h2 {
+                color: white;
+            }
+
+            nav ul {
+                list-style: none;
+                display: flex;
+            }
+
+                nav ul li {
+                    margin-left: 20px;
+                }
+
+                    nav ul li a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                    }
+
+                        nav ul li a:hover {
+                            color: dodgerblue;
+                        }
+
+        header {
+            background: url(b1.webp) no-repeat center/cover;
+            text-align: center;
+            padding: 60px;
+        }
+
+            header h1 {
+                font-size: 50px;
+            }
+
+        .container {
+            padding: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: lightgray;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background: dodgerblue;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        footer {
+            background: green;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        /* Center contact info */
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        /* Centered box for feedback form */
+        .feedback-box {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 20px 30px;
+            border: 2px solid #0b4dbb;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            background: #f9f9f9;
+        }
+
+            .feedback-box h3 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .feedback-box input,
+            .feedback-box textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+            }
+
+            .feedback-box button {
+                width: 100%;
+                padding: 10px;
+                background: dodgerblue;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+                .feedback-box button:hover {
+                    background: #0b4dbb;
+                }
+
+      
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>MSBTE WPD Practicals</h1>
+    </header>
+
+    <nav>
+        <h2>WPD Practicals</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#Practicals">Practicals</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="Practicals">
+        <h2>List of Practicals</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Pr.1</h3>
+                <p>Basic HTML Page</p>
+                <a class="btn" href="pr1.html" target="blank">View</a>
+                <a class="btn" href="pr1.png" target="blank">output</a>
+            </div>
+
+            <div class="card">
+                <h3>Pr.2</h3>
+                <p>Text Formatting Tags</p>
+                <a class="btn" href="pr2.html" target="blank">View</a>
+                <a class="btn" href="pr2.png" target="blank">output</a>
+            </div>
+
+            <div class="card">
+                <h3>Pr.3</h3>
+                <p>HTML Lists</p>
+                <a class="btn" href="pr3.html" target="blank">View</a>
+                <a class="btn" href="pr3.png" target="blank">output</a>
+            </div>
+
+            <div class="card">
+                <h3>Pr.4</h3>
+                <p>Hyperlinks</p>
+                <a class="btn" href="pr4.html" target="blank">View</a>
+                <a class="btn" href="pr4.png" target="blank">output</a>
+            </div>
+
+            <div class="card">
+                <h3>Pr.5</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="pr5.html" target="blank">View</a>
+                <a class="btn" href="pr5.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.6</h3>
+                <p>Image Tag</p>
+                <a class="btn" href="pr6.html" target="blank">View</a>
+                <a class="btn" href="pr6.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.7</h3>
+                <p>Emoji tage</p>
+                <a class="btn" href="pr7.html" target="blank">View</a>
+                <a class="btn" href="pr7.png" target="blank">output</a>
+            </div>
+
+            <div class="card">
+                <h3>Pr.8</h3>
+                <p>listing tag</p>
+                <a class="btn" href="pr8.html" target="blank">View</a>
+                <a class="btn" href="pr8.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.9</h3>
+                <p>menu card</p>
+                <a class="btn" href="pr9.html" target="blank">View</a>
+                <a class="btn" href="pr8.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.10</h3>
+                <p>go to tag</p>
+                <a class="btn" href="pr10.html" target="blank">View</a>
+                <a class="btn" href="pr10.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.11</h3>
+                <p>go to tag</p>
+                <a class="btn" href="pr11.html" target="blank">View</a>
+                <a class="btn" href="pr11.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.12</h3>
+                <p>Web in image</p>
+                <a class="btn" href="pr12.html" target="blank">View</a>
+                <a class="btn" href="pr12.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.13</h3>
+                <p>hover tag</p>
+                <a class="btn" href="pr13.html" target="blank">View</a>
+                <a class="btn" href="pr13.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.14</h3>
+                <p>peregraph tag</p>
+                <a class="btn" href="pr14.html" target="blank">View</a>
+                <a class="btn" href="pr14.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.15</h3>
+                <p>paregraph & image</p>
+                <a class="btn" href="pr15.html" target="blank">View</a>
+                <a class="btn" href="pr15.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.16</h3>
+                <p>paregraph tag</p>
+                <a class="btn" href="pr16.html" target="blank">View</a>
+                <a class="btn" href="pr16.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.17</h3>
+                <p>time table</p>
+                <a class="btn" href="pr17.html" target="blank">View</a>
+                <a class="btn" href="pr17.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.18</h3>
+                <p>table tag</p>
+                <a class="btn" href="pr18.html" target="blank">View</a>
+                <a class="btn" href="pr18.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.19</h3>
+                <p>table tag</p>
+                <a class="btn" href="pr19.html" target="blank">View</a>
+                <a class="btn" href="pr19.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.20</h3>
+                <p>HTML form tag</p>
+                <a class="btn" href="pr20.html" target="blank">View</a>
+                <a class="btn" href="pr20.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.21</h3>
+                <p>HTML FORM tag</p>
+                <a class="btn" href="pr21.html" target="blank">View</a>
+                <a class="btn" href="pr21.png" target="blank">output</a>
+            </div>
+            <div class="card">
+                <h3>Pr.22</h3>
+                <p>CSS</p>
+                <a class="btn" href="pr22.html" target="blank">View</a>
+                <a class="btn" href="pr22.png" target="blank">output</a>
+            </div>
+
+
+
+            <!-- Add more practical cards as needed -->
+        </div>
+    </div>
+    <!-- ✅ FEEDBACK FORM AT THE VERY END -->
+    <div class="feedback-box">
+        <h3>Feedback Form</h3>
+
+        <form action="https://script.google.com/macros/s/AKfycbz_GSBjwjoRyW86X9bMYJhklmwPYsFK4InDpRdT3CRCWbfObZq9w0Q1Z2_QnLNCQUGtoA/exec" method="post">
+
+            <input type="text" name="name" placeholder="Enter your name" required>
+
+            <input type="email" name="email" placeholder="Enter your email" required>
+
+            <input type="date" name="date" required>
+
+            <textarea name="message" placeholder="Enter your feedback" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2026 MSBTE WPD Practical Website</p>
+    </footer>
+
+    <!-- CONTACT INFO -->
+    <div class="contact-info" id="contact">
+        <p><b>NAME:</b> Gunjan K Nikam</p>
+        <p>
+            MET's Institute of Technology Polytechnic<br>
+            Department of IT<br>
+            Email: ICT.202526@gmail.com
+        </p>
+    </div>
+
+
+
+</body>
+</html>
